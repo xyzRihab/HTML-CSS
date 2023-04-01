@@ -13,18 +13,20 @@
     <title>Frontend Mentor | Clipboard landing page</title>
   </head>
   <body>
-    <div id="flex-container">
-      <div class="first-div">
-        <p id="copyright">&copy;</p>
-        <h1>A history of everything you copy</h1>
-        <p>
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices
-        </p>
-        <div class="download margin">
-          <a href="#" id="ios">Download for iOS</a>
-          <a href="#" id="mac">Download for Mac</a>
-        </div>
+    <header>
+      <p id="copyright">&copy;</p>
+      <h1>A history of everything you copy</h1>
+      <p>
+        Clipboard allows you to track and organize everything you copy.
+        Instantly access your clipboard on all your devices
+      </p>
+    </header>
+    <section class="first-section">
+      <div class="download margin">
+        <a href="#" id="ios">Download for iOS</a>
+        <a href="#" id="mac">Download for Mac</a>
+      </div>
+      <div>
         <h2>Keep track of your snippets</h2>
         <p>
           Clipboard instantly stores any item you copy in the cloud, meaning you
@@ -32,33 +34,35 @@
           iOS apps will help you organize everything.
         </p>
       </div>
-      <div class="second-div margin">
-        <div class="computer">
-          <img src="./images/image-computer.png" alt="computer" />
-        </div>
-        <div class="inner-list">
-          <ul class="list">
-            <li class="margin">
-              <h3>Quick Search</h3>
-              <p>
-                Easily search your snippets by content, category, web address,
-                application, and more.
-              </p>
-            </li>
-            <li class="margin">
-              <h3>iCloud Sync</h3>
-              <p>Instantly saves and syncs snippets across all your devices.</p>
-            </li>
-            <li class="margin">
-              <h3>Complete History</h3>
-              <p>
-                Retrieve any snippets from the first moment you started using
-                the app.
-              </p>
-            </li>
-          </ul>
-        </div>
+    </section>
+    <section class="second-section margin">
+      <div class="computer">
+        <img src="./images/image-computer.png" alt="computer" />
       </div>
+      <div class="inner-list">
+        <ul class="list">
+          <li class="margin">
+            <h3>Quick Search</h3>
+            <p>
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+          </li>
+          <li class="margin">
+            <h3>iCloud Sync</h3>
+            <p>Instantly saves and syncs snippets across all your devices.</p>
+          </li>
+          <li class="margin">
+            <h3>Complete History</h3>
+            <p>
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="third-section">
       <div class="third-div margin">
         <h2>Access Clipboard anywhere</h2>
         <p>
@@ -69,41 +73,43 @@
         <h2>Supercharge your workflow</h2>
         <p>We've got the tools to boost your productivity</p>
       </div>
-      <div class="forth-div">
-        <ul class="margin list">
-          <li>
-            <img src="./images/icon-blacklist.svg" />
-            <h3>Create blacklists</h3>
-            <p>
-              Ensure sensitive information never makes its way to your clipboard
-              by excluding certain sources.
-            </p>
-          </li>
-          <li>
-            <img src="./images/icon-text.svg" />
-            <h3>Plain text snippets</h3>
-            <p>
-              Remove unwanted formatting from copied text for a consistent look.
-            </p>
-          </li>
-          <li>
-            <img src="./images/icon-preview.svg" />
-            <h3>Sneak preview</h3>
-            <p>
-              Quick preview of all snippets on your Clipboard for easy access.
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="fifth-div">
-        <ul class="list">
-          <li><img src="./images/logo-google.png" alt="google" /></li>
-          <li><img src="./images/logo-ibm.png" alt="ibm" /></li>
-          <li><img src="./images/logo-microsoft.png" alt="microsoft" /></li>
-          <li><img src="./images/logo-hp.png" alt="hp" /></li>
-          <li><img src="./images/logo-vector-graphics.png" alt="vg" /></li>
-        </ul>
-      </div>
+    </section>
+    <section class="fourth-section">
+      <ul class="margin list">
+        <li>
+          <img src="./images/icon-blacklist.svg" />
+          <h3>Create blacklists</h3>
+          <p>
+            Ensure sensitive information never makes its way to your clipboard
+            by excluding certain sources.
+          </p>
+        </li>
+        <li>
+          <img src="./images/icon-text.svg" />
+          <h3>Plain text snippets</h3>
+          <p>
+            Remove unwanted formatting from copied text for a consistent look.
+          </p>
+        </li>
+        <li>
+          <img src="./images/icon-preview.svg" />
+          <h3>Sneak preview</h3>
+          <p>
+            Quick preview of all snippets on your Clipboard for easy access.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="fifth-section">
+      <ul class="list">
+        <li><img src="./images/logo-google.png" alt="google" /></li>
+        <li><img src="./images/logo-ibm.png" alt="ibm" /></li>
+        <li><img src="./images/logo-microsoft.png" alt="microsoft" /></li>
+        <li><img src="./images/logo-hp.png" alt="hp" /></li>
+        <li><img src="./images/logo-vector-graphics.png" alt="vg" /></li>
+      </ul>
+    </section>
+    <section class="sixth-section">
       <div class="sixth-div margin">
         <h2>Clipboard for iOS and Mac OS</h2>
         <p>
@@ -115,33 +121,33 @@
           <a id="mac" href="#" id="mac">Download for Mac</a>
         </ul>
       </div>
-      <footer class="flex">
-        <ul class="list flex">
-          <li><div id="copy">&copy</div></li>
-          <li>
-            <div id="inner">
-              <a href="#">FAQs</a>
-              <a href="#">Contact Us</a>
-            </div>
-          </li>
-          <li>
-            <div id="inner">
-              <a href="#">Privary Policy</a>
-              <a href="#">Press Kit</a>
-            </div>
-          </li>
-          <li>
-            <div id="inner"><a href="#">Install Guide</a></div>
-          </li>
-          <li>
-            <div id="social-media">
-              <a href="#"><img src="./images/icon-facebook.svg" /></a>
-              <a href="#"><img src="./images/icon-twitter.svg" /></a>
-              <a href="#"><img src="./images/icon-instagram.svg" /></a>
-            </div>
-          </li>
-        </ul>
-      </footer>
-    </div>
+    </section>
+    <footer class="flex">
+      <ul class="list flex">
+        <li><div id="copy">&copy</div></li>
+        <li>
+          <div id="inner">
+            <a href="#">FAQs</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </li>
+        <li>
+          <div id="inner">
+            <a href="#">Privary Policy</a>
+            <a href="#">Press Kit</a>
+          </div>
+        </li>
+        <li>
+          <div id="inner"><a href="#">Install Guide</a></div>
+        </li>
+        <li>
+          <div id="social-media">
+            <a href="#"><img src="./images/icon-facebook.svg" /></a>
+            <a href="#"><img src="./images/icon-twitter.svg" /></a>
+            <a href="#"><img src="./images/icon-instagram.svg" /></a>
+          </div>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

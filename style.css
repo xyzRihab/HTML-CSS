@@ -45,10 +45,10 @@ body {
   color: var(--strong-cyan);
 }
 
-.first-div,
+.first-section,
 .sixth-div,
-.forth-div,
-.fifth-div {
+.fourth-section,
+.fifth-section {
   width: 100%;
 }
 
@@ -56,6 +56,7 @@ h2,
 h1,
 h3 {
   color: var(--dark-grayish-blue);
+  font-weight: var(--font-weight-bold);
   text-align: center;
   width: 100%;
   margin-bottom: 15px;
@@ -97,22 +98,22 @@ p {
   background-color: var(--strong-cyan);
 }
 
-.second-div,
+.second-section,
 .third-div,
-.forth-div ul,
-.fifth-div ul {
+.fourth-section ul,
+.fifth-section ul {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
 
 .inner-list ul,
-.forth-div ul li {
+.fourth-section ul li {
   width: 400px;
 }
 
-.second-div h3,
-.second-div p {
+.second-section h3,
+.second-section p {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -131,8 +132,8 @@ p {
 }
 
 .third-div,
-.forth-div ul,
-.fifth-div {
+.fourth-section ul,
+.fifth-section {
   justify-content: center;
 }
 
@@ -142,21 +143,21 @@ p {
   margin-bottom: 30px;
 }
 
-.forth-div ul li {
+.fourth-section ul li {
   margin-top: 20px;
   text-align: center;
 }
 
-.forth-div h3 {
+.fourth-section h3 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.fifth-div ul {
+.fifth-section ul {
   justify-content: center;
 }
 
-.fifth-div ul li {
+.fifth-section ul li {
   padding: 60px;
 }
 
@@ -216,7 +217,7 @@ footer ul li {
   .download {
     margin-bottom: 100px;
   }
-  .second-div {
+  .second-section {
     margin-bottom: 70px;
   }
   .computer {
@@ -232,7 +233,7 @@ footer ul li {
 }
 
 @media (max-width: 800px) {
-  .second-div {
+  .second-section {
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
@@ -243,8 +244,8 @@ footer ul li {
   .inner-list li {
     margin-top: 40px;
   }
-  .second-div h3,
-  .second-div p {
+  .second-section h3,
+  .second-section p {
     text-align: center;
   }
   .computer {
@@ -301,8 +302,8 @@ footer ul li {
     background-repeat: no-repeat;
     font-size: var(--font-size);
   }
-  .second-div h2,
-  .second-div p {
+  .second-section h2,
+  .second-section p {
     width: 80%;
   }
   .third-div img {
@@ -310,10 +311,10 @@ footer ul li {
     width: 80%;
     margin-bottom: 55px;
   }
-  .forth-div ul li {
+  .fourth-section ul li {
     padding: 20px;
   }
-  .fifth-div ul li {
+  .fifth-section ul li {
     padding: 30px;
   }
 }
